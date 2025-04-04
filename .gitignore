@@ -1,0 +1,33 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/dist/
+
+# Temp files
+*.log
+*.tmp
+.env
+.env.local
+
+# Build
+/bin/
+/build/
+
+# Debug
+debug/
+
+# Go workspace file
+go.work
